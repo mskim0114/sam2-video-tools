@@ -55,11 +55,7 @@ python my_own/advanced_interactive.py --video 도로주행2.mp4
 
 ### 3. 비디오 합성
 ```bash
-python my_own/sam2_video_compose.py \
-    --bg 배경영상.mp4 \
-    --obj 원본영상.mp4 \
-    --mask output_masks/ \
-    --out 합성결과.mp4
+python my_own/sam2_video_compose_0923.py     --bg 배경영상.mp4     --obj 도로주행2.mp4     --mask output_masks/combined     --out 결과0924.mp4     --placement original     --offset-y 300     --brightness-match
 ```
 
 ## 🎮 컨트롤
